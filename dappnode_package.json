@@ -1,6 +1,6 @@
 {
   "name": "timecapsule.dnp.dappnode.eth",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "shortDescription": "TimeCapsule, a timemachine backup solution for macOS users",
   "description": " The TimeCapsule package for DAppNode offers a comprehensive backup solution for macOS users, mimicking the functionality of an Apple Time Capsule with the added flexibility and control of DAppNode. This package enables macOS users to leverage Time Machine for automatic backups of their systems directly to their DAppNode, ensuring their data is secure and self-hosted",
   "type": "service",
