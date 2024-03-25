@@ -1,0 +1,29 @@
+version: "2"
+fields:
+  - id: tm_username
+    target:
+      type: environment
+      name: TM_USERNAME
+      service: timecapsule
+    title: Time Capsule Username
+    description: |
+      Your Time Capsule username to connect.
+    required: true
+  - id: tm_password
+    target:
+      type: environment
+      name: PASSWORD
+      service: timecapsule
+    title: Time Capsule Password
+    description: |
+      Your Time Capsule password.
+    required: true
+  - id: tm_volume_size_limit
+    target:
+      type: environment
+      name: VOLUME_SIZE_LIMIT
+      service: timecapsule
+    title: Time Capsule Volume Size Limit
+    description: |
+      Sets the maximum size of the time machine backup; a unit can also be passed (e.g. - 1 T, 500 M, 1 G)
+    required: true
