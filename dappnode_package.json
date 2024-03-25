@@ -1,0 +1,13 @@
+{
+  "name": "timecapsule.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "description": " timecapsule.dnp.dappnode.eth",
+  "type": "service",
+  "author": "edu",
+  "categories": ["Developer tools"],
+  "architectures": ["linux/amd64"],
+  "links": {
+    "homepage": "https://your-project-homepage-or-docs.io"
+  },
+  "license": "GPL-3.0"
+}
