@@ -1,13 +1,18 @@
 {
   "name": "timecapsule.dnp.dappnode.eth",
   "version": "0.1.0",
-  "description": " timecapsule.dnp.dappnode.eth",
+  "shortDescription": "TimeCapsule, a timemachine backup solution for macOS users",
+  "description": " The TimeCapsule package for DAppNode offers a comprehensive backup solution for macOS users, mimicking the functionality of an Apple Time Capsule with the added flexibility and control of DAppNode. This package enables macOS users to leverage Time Machine for automatic backups of their systems directly to their DAppNode, ensuring their data is secure and self-hosted",
   "type": "service",
-  "author": "edu",
-  "categories": ["Developer tools"],
-  "architectures": ["linux/amd64"],
+  "author": "eduadiez",
+  "categories": [
+    "Developer tools"
+  ],
+  "architectures": [
+    "linux/amd64"
+  ],
   "links": {
-    "homepage": "https://your-project-homepage-or-docs.io"
+    "homepage": "https://github.com/eduadiez/dappnode-timecapsule.git"
   },
   "license": "GPL-3.0"
 }

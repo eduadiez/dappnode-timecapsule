@@ -2,7 +2,7 @@ version: "3.5"
 services:
   timecapsule:
     build: .
-    image: "timecapsule.dnp.dappnode.eth:0.1.0"
+    image: "timecapsule.timecapsule.dnp.dappnode.eth:0.1.0"
     restart: unless-stopped
     environment:
       - TM_USERNAME
@@ -11,8 +11,7 @@ services:
       - TM_UID=1000
       - TM_GID=1000
       - SET_PERMISSIONS=false
-      - VOLUME_SIZE_LIMIT: "512 GB"
-
+      - VOLUME_SIZE_LIMIT=512 GB
     volumes:
       - "timemachine:/opt/timemachine"
     ulimits:
