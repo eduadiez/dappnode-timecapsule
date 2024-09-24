@@ -7,7 +7,7 @@ fields:
       service: timecapsule
     title: Time Capsule Username
     description: |
-      Your Time Capsule username to connect.
+      Your Time Capsule username.
     required: true
   - id: tm_password
     target:
